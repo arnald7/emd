@@ -44,6 +44,10 @@ dbEnd();
                 <i class="material-icons left">home</i>Return to home
             </a>        
         </div>
+
+        <?php
+            session_destroy();
+        ?>
         
 
     </div>

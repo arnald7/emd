@@ -78,7 +78,7 @@ $lg = pegaGHUser($_GET['lg']);
                 <p class="valuehour">Value per hour: U$ <?php echo valor($user->followers);  ?></p>
                 <a href="cart.php?act=add&lg=<?php echo $lg; ?>"
                  class="waves-effect waves-light btn-large <?php if ($off == 1) { echo 'disabled'; } ?> ">
-                    <i class="material-icons left">shopping_cart</i><?php if ($off == 1) { echo 'Added'; } else { echo 'Added'; } ?>
+                    <i class="material-icons left">shopping_cart</i><?php if ($off == 1) { echo 'Added'; } else { echo 'Add to Cart'; } ?>
                 </a> 
             </div>
 
