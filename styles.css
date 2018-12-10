@@ -1,0 +1,137 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+}
+
+h1 {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.75em;
+  color: #fff;
+}
+
+.header {
+  background-color: #222;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px !important;
+}
+
+ul.gitusers li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+ul.gitusers li a {
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+ul.gitusers li img {
+  width: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul.gitusers li p {
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+#profile .card-panel {
+  padding: 0.75rem;
+}
+#profile img {
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+#profile h1 {
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+#profile h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+#profile p.login {
+  margin-top: 0px;
+  text-align: left;
+  padding: 0;
+}
+#profile .btn-large {
+  width: 100%;
+}
+#profile .valuehour {
+  text-align: center;
+}
+
+#tablecart {
+  margin: 0.75rem;
+  width: 95%;
+}
+#tablecart th {
+  padding-bottom: 5px;
+}
+#tablecart td {
+  line-height: 3em;
+}
+#tablecart .total {
+  font-weight: bold;
+}
+#tablecart a {
+  color: red;
+}
+#tablecart a:hover {
+  color: #000;
+}
+#tablecart a.update {
+  color: initial;
+  width: 100%;
+  padding: 0;
+}
+#tablecart i {
+  line-height: 2em;
+}
+#tablecart input.qty {
+  text-align: center;
+}
+.checkout_area {
+  margin-top: 20px;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-radius: 5px;
+}
+.checkout_area h1 {
+  padding-top: 0;
+  margin-top: 0;
+}
+.checkout_area .btn-small {
+  margin-top: 20px;
+}
+strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .row .col {
+    padding: 0 0.25rem;
+  }
+  nav .nav-wrapper {
+    height: initial;
+  }
+  nav .brand-logo.center {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    text-align: center;
+    position: relative;
+    left: auto;
+    display: block;
+  }
+}
