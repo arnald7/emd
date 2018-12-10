@@ -3,7 +3,7 @@ require_once 'inc/header.php';
 require_once 'inc/functions.php';
 
 // Verificação
-if(!isset($_SESSION['logado'])):
+if(!isset($_SESSION['logado']) || $_SESSION['logado']== false):
 	header('Location: login.php');
 endif;
 
