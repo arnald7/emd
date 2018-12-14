@@ -7,12 +7,7 @@ $passwordDB = "";
 $database = "rent"; 
 
 
-/* BANCO DE DADOS 
-$hostname = "localhost";
-$userDB = "budon629_user";
-$passwordDB = "vg527282";
-$database = "budon629_rent";
-*/
+
 
 function dbCon(){
 
